@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish Hortus & Real Forestry</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Krish Hortus & Real Forestry</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h2>Digitizing Nature for a Sustainable Future</h2>
+        <p>Empowering tree farmers, urban communities, and climate solutions with AI and Web3 technology.</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Founded from a rich legacy since 1932, Krish Hortus and Real Forestry drive innovation in horticulture, forestry, and sustainable living with cutting-edge AI, blockchain, and LiDAR technology.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <h3>TreeAI</h3>
+                <p>Digitally measure trees, calculate mass, and estimate carbon sequestration.</p>
+            </div>
+            <div class="product-card">
+                <h3>Smart Dustbin</h3>
+                <p>AI-powered waste segregation, turning organic waste into natural manure.</p>
+            </div>
+            <div class="product-card">
+                <h3>LiDAR Robotics</h3>
+                <p>Low-cost, precise 3D scanning for small farms and agroforestry data collection.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="technology">
+        <h2>Our Technology</h2>
+        <p>Harnessing AWS, blockchain, and simulation modules to create scalable solutions for nature-based living and climate resilience.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Krish Hortus & Real Forestry. All rights reserved.</p>
+    </footer>
+</body>
+</html>
